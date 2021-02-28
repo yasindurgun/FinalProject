@@ -10,6 +10,7 @@ namespace Business.Concrete
 {
     public class ProductManager : IProductService
     {
+        //constructor injection
         IProductDal _productDal;
 
         public ProductManager(IProductDal productDal)
